@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Taklifnoma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="canvas">This browser does not support canvas.</canvas>
+    <div class="intro1">
+        <div class="intro">
+            <div class="moon-container">
+                <div class="decorative-heart"></div>
+                <div class="moon-halo"></div>
+                <div class="moon-particles"></div>
+            </div>
+            <p>Yulduzlar ostida bir umr birga bo'lishga taklif qilamiz</p>
+            <button id="blurButton">Taklifnomani ochish</button>
+        </div>
+    </div>
+    <div class="invitation">
+        <div class="parchment">
+            <header>
+                <h1>Assalomu aleykum</h1>
+            </header>
+            <section class="details">
+                <p>Bizning muhabbatimiz guvohi bo'ling</p>
+                <h1 class="ism">Abdulla</h1>
+                <h1>&</h1>
+                <h1 class="ism">Noila</h1>
+                <p class="sana">Apr.<span class="date">11</span>.2025 / soat 18:00</p>
+                <p><span>Manzil:</span> "Afruz diamond" to'yxonasi</p>
+                <a href="https://maps.app.goo.gl/o1MgB5CtFBT5W1zy6" target="_blank" class="map-button">Xarita orqali ochish</a>
+            </section>
+            <div class="countdown">
+                <h3>Yulduzli kunimizgacha</h3>
+                <div class="timer">
+                    <div class="time-box">
+                        <span id="days">00</span>
+                        <p>KUN</p>
+                    </div>
+                    <div class="time-box">
+                        <span id="hours">00</span>
+                        <p>SOAT</p>
+                    </div>
+                    <div class="time-box">
+                        <span id="minutes">00</span>
+                        <p>DAQIQA</p>
+                    </div>
+                    <div class="time-box">
+                        <span id="seconds">00</span>
+                        <p>SONIYA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <audio id="myAudio">
+            <source src="./audio.mp3">
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
